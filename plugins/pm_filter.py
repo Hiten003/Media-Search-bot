@@ -276,7 +276,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Support', url='https://t.me/requestprime')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/hiten003'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSupport : <a href='https://t.me/requestprime'>Requestprime</a>\nUpdate Channel : <a href='https://t.me/moviesprimeoff'>Moviesprime</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/hiten003'>Hiten</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSupport : <a href='https://t.me/requestprime'>Requestprime</a>\nUpdate Channel : <a href='https://t.me/moviesprimeoff'>Moviesprime</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
