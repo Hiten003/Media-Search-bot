@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/moviesprimeoff'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/moviezzprime'),
             InlineKeyboardButton('Support', url='https://t.me/requestprime')
         ]
         ]
-    await message.reply(text="<b>Creator : <a href='https://t.me/hiten003'>Hiten</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMovies here : <a href='https://t.me/requestprime'>Requestprime</a>\nUpdate Channel : <a href='https://t.me/moviesprimeoff'>Moviesprime</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Creator : <a href='https://t.me/hiten003'>Hiten</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMovies here : <a href='https://t.me/requestprime'>Requestprime</a>\nUpdate Channel : <a href='https://t.me/moviezzprime'>Moviesprime</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
